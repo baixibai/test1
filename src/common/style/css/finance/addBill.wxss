@@ -1,0 +1,487 @@
+.addBill {
+  /*滚动条样式*/
+}
+.addBill .box-card {
+  margin-bottom: 10px;
+}
+.addBill .box-card .displayBlock {
+  display: block;
+}
+.addBill .box-card .displayBlock .inType {
+  background: #E0F9EB;
+  padding: 0px 2px;
+  border: 1px solid #1DD397;
+  color: #222222;
+}
+.addBill .box-card .displayBlock .outType {
+  background: #FFE8E8;
+  padding: 0px 2px;
+  border: 1px solid #FF6666;
+  color: #222222;
+}
+.addBill .box-card .displayBlock .statusType {
+  background: #FFF0E0;
+  padding: 0px 2px;
+  border: 1px solid #FD9E32;
+  color: #222222;
+}
+.addBill .box-card .el-table th {
+  background-color: #EFF6FF;
+  color: #222222;
+  font-size: 12px;
+  line-height: 32px;
+}
+.addBill .box-card .el-table {
+  color: #222222;
+}
+.addBill .box-card .color109CF1 {
+  cursor: pointer;
+  color: #109CF1;
+}
+.addBill .el-card__body {
+  padding: 15px 15px;
+}
+.addBill .boxCardSearch .el-card__body {
+  margin-bottom: -20px;
+}
+.addBill .boxCardBtn .el-card__body {
+  margin-bottom: -10px;
+  position: relative;
+}
+.addBill .boxCardBtn .el-card__body .btnS {
+  position: absolute;
+  top: -20px;
+  right: 8px;
+}
+.addBill .boxCardInfo .el-card__body {
+  margin-bottom: -10px;
+  position: relative;
+}
+.addBill .boxCardInfo .el-card__body .btnS {
+  position: absolute;
+  top: -20px;
+  right: 8px;
+}
+.addBill .flexTop {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  right: 0px;
+  border: none;
+  border-radius: 0px;
+  animation: myKey 1s;
+}
+.addBill .overflowScroll .addLeft {
+  float: left;
+}
+.addBill .overflowScroll .addLeft .addInput {
+  width: 200px;
+}
+.addBill .overflowScroll .addCenter span {
+  display: block;
+  width: 200px;
+}
+.addBill .overflowScroll .addCenter .color2F70CF {
+  color: #2F70CF;
+}
+.addBill .overflowScroll .addCenter83 span {
+  display: block;
+  width: 150px;
+}
+.addBill .overflowScroll .addCenter83 .color2F70CF {
+  color: #2F70CF;
+}
+.addBill .overflowScroll .addRight button {
+  background: #1DD397;
+  width: 135px;
+  height: 135px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+.addBill .el-form-item__label {
+  color: #222222;
+}
+.addBill .el-form-item__content .el-select {
+  width: 135px;
+}
+.addBill .el-form-item__content .el-autocomplete {
+  width: 135px;
+}
+.addBill .el-date-editor.el-input,
+.addBill .el-date-editor.el-input__inner {
+  width: 130px;
+}
+.addBill .el-input--mini .el-input__inner {
+  border-radius: 4px;
+  height: 26px;
+  line-height: 26px;
+}
+.addBill .overflowScroll {
+  overflow-y: scroll;
+}
+.addBill .el-dialog {
+  background: #e6ebf0;
+}
+.addBill .el-dialog .el-dialog__body {
+  padding: 10px 10px;
+}
+.addBill .overflowScroll::-webkit-scrollbar {
+  width: 2px;
+}
+.addBill .overflowScroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.addBill .overflowScroll::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.addBill .cardTableTop {
+  position: relative;
+  top: 140px;
+}
+.addBill .cardTableMentBill {
+  position: relative;
+  top: 160px;
+}
+.addBill .cardTableMentBillWrite {
+  position: relative;
+  top: 80px;
+}
+.addBill .cardTableInfo {
+  position: relative;
+  top: 40px;
+}
+.addBill .cardTable {
+  margin-top: 10px;
+}
+.addBill .cardTable .tableTitleLeft {
+  font-weight: bold;
+  color: #4C545E;
+  margin-bottom: 10px;
+}
+.addBill .cardTable .tableTitleRight {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.addBill .cardTable .tableTitleRight .tableTitleRightTest {
+  background: #FD9E32;
+  color: #fff;
+  padding: 2px 8px;
+  font-weight: 600;
+  float: right;
+}
+.addBill .cardTable .tableTitleRight div {
+  float: right;
+}
+.addBill .cardTable .btnClick {
+  width: 50px;
+  height: 20px;
+  background: #109CF1;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0 2px;
+}
+.addBill .cardTable .btnClick .el-icon-arrow-down {
+  font-weight: bolder;
+}
+.addBill .cardTable .btnClick .el-icon-arrow-down {
+  font-weight: bolder;
+}
+.addBill .cardTable .btnClick .el-icon-arrow-up {
+  font-weight: bolder;
+}
+.addBill .cardTable .btnClick span {
+  margin-left: 2px;
+}
+.addBill .cardTable .color1DD397 {
+  color: #1DD397;
+}
+.addBill .cardTable .colorFD9E32 {
+  color: #FD9E32;
+}
+.addBill .el-table .caret-wrapper {
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+.addBill .tableHeader .reset {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 26px;
+  background: #E9EEF3;
+  margin-right: 5px;
+}
+.addBill .tableHeader .reset .el-icon-refresh {
+  position: relative;
+  left: -4px;
+  color: #909399;
+  font-weight: bold;
+}
+.addBill .tableHeader .input {
+  display: block;
+  float: left;
+  width: 420px;
+  height: 26px;
+}
+.addBill .tableHeader .input .el-input__inner {
+  border-radius: 0;
+  padding-left: 80px;
+  padding-right: 90px;
+}
+.addBill .tableHeader .input .el-input__suffix {
+  position: absolute;
+  right: 62px;
+}
+.addBill .tableHeader .input:active {
+  background: red;
+}
+.addBill .tableHeader .btn {
+  position: relative;
+  background: #E9EEF3;
+  display: block;
+  float: left;
+  width: 60px;
+  height: 26px;
+  margin-left: -60px;
+  border-radius: 0;
+}
+.addBill .tableHeader .btn .el-icon-search {
+  color: #909399;
+  font-weight: bold;
+}
+.addBill .tableHeader .downInput {
+  position: relative;
+  float: left;
+}
+.addBill .tableHeader .downInput .down {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 24px;
+  background: #fff;
+  border-right: none;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  z-index: 1;
+  line-height: 24px;
+  cursor: pointer;
+}
+.addBill .tableHeader .downInput .down .el-icon-caret-bottom {
+  position: relative;
+  left: 6px;
+  top: 0px;
+  color: #909399;
+  font-weight: bold;
+  color: #DADADA;
+  font-size: 12px;
+}
+.addBill .tableHeader .downInput .down span {
+  color: #222222;
+  font-size: 12px;
+}
+.addBill .tableHeader .width100 {
+  position: relative;
+  float: left;
+}
+.addBill .tableHeader .width100 .down {
+  display: block;
+  float: left;
+  width: 100px;
+  height: 24px;
+  background: #fff;
+  border-right: none;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  z-index: 1;
+  line-height: 24px;
+  cursor: pointer;
+}
+.addBill .tableHeader .width100 .down .el-icon-caret-bottom {
+  position: relative;
+  left: 6px;
+  top: 0px;
+  color: #909399;
+  font-weight: bold;
+  color: #DADADA;
+  font-size: 12px;
+}
+.addBill .tableHeader .width100 .down span {
+  color: #222222;
+  font-size: 12px;
+}
+.addBill .tableHeader .width100 .input .el-input__inner {
+  border-radius: 0;
+  padding-left: 100px;
+  padding-right: 61px;
+}
+.addBill .tableHeader .tableHeaderRight {
+  float: right;
+}
+.addBill .tableHeader .tableHeaderRight .clickBtn {
+  height: 26px;
+  line-height: 0px;
+  padding: 0 10px;
+  border-radius: 2px;
+}
+.addBill .tableMoneyDinwei {
+  position: relative;
+}
+.addBill .tableMoneyDinwei .fapdziaos .el-input__inner {
+  width: 70px;
+}
+.addBill .tableMoneyDinwei .fapdziaos,
+.addBill .tableMoneyDinwei .s .el-input__inner {
+  padding-right: 43px;
+  width: 100px;
+}
+.addBill .tableMoneyDinwei .el-select .el-input__inner {
+  width: 40px;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 2px;
+  padding-right: 0;
+  margin-left: 10px;
+  border: none;
+}
+.addBill .tableMoneyDinwei .el-select .el-input__inner .el-select__caret {
+  position: relative;
+  top: 8px;
+}
+.addBill .tableMoneyDinwei .el-select .el-input__inner .el-select__caret .el-input__icon .el-icon-arrow-up {
+  position: relative;
+  top: 8px;
+}
+.addBill .tableMoneyDinwei .dinwei {
+  position: absolute;
+  right: 0px;
+  top: -1px;
+  cursor: pointer;
+}
+.addBill .tableMoneyDinwei .el-icon-d-caret {
+  position: absolute;
+  right: 2px;
+  top: 5px;
+  color: #DADADA;
+  cursor: pointer;
+}
+.addBill .tableMoneyDinwei2 {
+  position: relative;
+}
+.addBill .tableMoneyDinwei2 .fapdziaos .el-input__inner {
+  padding-right: 32px;
+}
+.addBill .tableMoneyDinwei2 .dinwei {
+  position: absolute;
+  right: 4px;
+  top: -1px;
+  cursor: pointer;
+}
+.formText {
+  width: 135px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.invoiceBtns {
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: none;
+  z-index: 9;
+}
+.invoiceBtns .qu {
+  height: 28px;
+  padding: 6px 30px;
+  background: #FF6666;
+  color: #fff;
+  margin-top: -20px;
+  border-radius: 2px;
+}
+.invoiceBtns .guan {
+  height: 28px;
+  padding: 6px 26px;
+  margin-top: -20px;
+  border-radius: 2px;
+}
+.invoiceBtnsClose {
+  background: #fff;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -30px;
+  overflow: hidden;
+}
+.invoiceBtnsClose p {
+  height: 100px;
+}
+.invoiceBtnsClose p span {
+  display: block;
+  margin-left: 100px;
+  color: #000;
+  font-size: 14px;
+}
+.invoiceBtnsClose p span:first-child {
+  margin-top: 50px;
+}
+.invoiceBtnsClose div {
+  text-align: center;
+  height: 50px;
+  border-top: 1px solid #ccc;
+  line-height: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background: #F8F8F8;
+}
+.invoiceBtnsClose .sure {
+  height: 28px;
+  padding: 6px 26px;
+  margin-top: -20px;
+  background: #109CF1;
+  color: #fff;
+  border-radius: 2px;
+}
+.invoiceBtnsClose .guan {
+  height: 28px;
+  padding: 6px 26px;
+  margin-top: -20px;
+  border-radius: 2px;
+}
+.el-message-box {
+  position: relative;
+  top: -150px;
+}
+.el-dialog {
+  min-width: none;
+  max-width: none;
+}
+.asd .el-dialog {
+  min-width: 450px;
+  max-width: 450px;
+}
+.el-radio + .el-radio {
+  margin-left: none !important;
+}
+.el-dialog__body .el-main {
+  padding: 0;
+}
+@keyframes myKey {
+  from {
+    top: 35px;
+    left: 20px;
+    right: 20px;
+  }
+  to {
+    top: 35px;
+    left: 0px;
+    right: 0px;
+  }
+}

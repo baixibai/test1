@@ -1,0 +1,78 @@
+// 定义全局样式
+$color-primary: #20a0ff;//#18c79c
+$color-green: #2ED47A;
+$color-red: #f56c6c;//红色按钮
+$color-redtip: #FFA3A3;//提示色
+$color-yellow: #FD9E32;//提示色
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: PingFang SC, Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+.Fblue{
+  color: $color-primary;
+}
+.Fgreen{
+  color: $color-green;
+}
+.Fyellow{
+  color: $color-yellow;
+}
+.cursor{
+  cursor: pointer;
+}
+.fr{
+	float:right;
+}
+.el-radio-button__inner{
+    padding:8px 20px;
+}
+.el-alert--warning{
+  background: $color-redtip;
+  color: #ffffff;
+}
+.el-alert{
+  .alert_title{
+    margin: 0px;
+    padding: 8px 0;
+  }
+}
+.el-submenu{
+  .el-menu-item{
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .el-menu{
+    border-right:none;
+    .is-active{
+      color: #ffffff;
+      background: #2F70CF;
+      &:hover{
+        background: #2F70CF;
+      }
+    }
+  }
+}
+.el-tooltip__popper.is-light{
+  border: none;
+}
+.el-table th{
+  background: #FAFAFA;
+  padding: 5px 0px;
+}
+a{
+  color: #109cf1;
+}
+
+// tab切换错位
+.tabpage .el-tabs__header{
+  margin-bottom: 0px;
+}
+.tabpage .el-tabs__nav-scroll{
+  padding: 0px 20px;
+}
+// end
+
